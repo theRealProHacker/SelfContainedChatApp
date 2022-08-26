@@ -1,4 +1,4 @@
-# TODO: add gui and or asyncconsole and maybe 
+# TODO: add gui and or asyncconsole and maybe encryption
 import os
 import time
 import re
@@ -21,9 +21,11 @@ def read():
             if match:
                 print(match.groups())
 
-read()
+def main():
+    write(input("Your Message: "))
+    read()
 
 # Here should be an event loop that checks for both user input as well as file changes.
 
 
-# Rashid:1661541411:hello
+# User:1661541411:hello
