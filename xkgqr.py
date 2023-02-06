@@ -5,7 +5,7 @@ import re
 
 file = os.path.abspath(__file__)
 author = os.path.basename(os.environ["USERPROFILE"])
-print(f"{author=}")
+print(f"Hello, {author}")
 
 def write(msg):
     with open(file, "a") as f:
