@@ -26,6 +26,7 @@ def main():
     read()
 
 # Here should be an event loop that checks for both user input as well as file changes.
+main()
 
 
 # User:1661541411:hello
